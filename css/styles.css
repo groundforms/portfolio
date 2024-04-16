@@ -4,7 +4,8 @@
 
 /* Global styles */
 
-body {background-color: #EBDBDB;
+body {
+    background-color: #EBDBDB;
     color: #000;
     font-family: "Neue Haas Grotesk Display Pro";
     font-size: 2vw;
