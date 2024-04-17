@@ -17,7 +17,7 @@ body {
 h1 {
     font-family: neue-haas-grotesk-display, sans-serif;
     color: #000;
-    font-size: 16vw;
+    font-size: 8vw;
     font-weight: 450;
     text-align: left;
     line-height: .8em;
@@ -92,20 +92,20 @@ label-line {
   
 
 .img-hero{
-    margin-top: 6.25em;
+    margin-top: 3.125em;
     width: 100%;
     height: 33.3rem;
-    padding: 2.5rem;
+    padding: 0 2.5rem 0 2.5rem;
     object-fit: cover;
 }
 
 .sub-head {
     background-color: inherit;
-    margin-top: 6.25em;
+    margin-top: 3.125em;
     margin-left: 8.875rem;
     margin-right: 8em;
-    margin-bottom: 5em;
-   border: 3px solid #73AD21;
+   
+   
     color: inherit;
 }
 
