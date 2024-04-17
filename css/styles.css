@@ -8,12 +8,86 @@ body {
     background-color: #EBDBDB;
     color: #000;
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-size: 2vw;
+    font-size: 1.25vw;
     font-style: normal;
     font-weight: 400;
     line-height: 1.16en; /* 116.667% */  
 }
+/* Heading styles */
+h1 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    color: #000;
+    font-size: 7.5vw;
+    font-weight: 450;
+    text-align: left;
+    line-height: .8em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 67px;
+    margin-right: 0;
+    text-transform: uppercase;    
+}
 
+h2 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    color: black;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 450;
+    text-align: left;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 142px;
+    margin-right: 2em;
+    line-height: 1.16em; /* 116.667% */
+}
+
+h3 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    color: black;
+    font-size: 3vw;
+    font-weight: 450;
+    text-align: right;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 2em;
+    text-transform: none;
+    background-color: none;
+    padding: .25em;
+    line-height: 1.16em; /* 116.667% */   
+}
+
+h4 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+  color: black;
+    font-size: 2.25vw;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0.83em;
+    text-transform: none;
+    background-color: none;
+    padding: .25em;
+    border-radius: none;
+    line-height: 1.16em; /* 116.667% */      
+}
+
+label {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 1.5vw;
+font-style: normal;
+font-weight: 450;
+line-height: 1.4em; /* 141.667% */
+}
+
+label-line {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    color: var(--Colours-Slate, #738080);
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 400;
+line-height: 41px; /* 170.833% */
+}
 .header .navbar-default {
   background: #EBDBDB;
 }
@@ -122,81 +196,7 @@ footer {
     border-radius: 1000px;
 }
 
-/* Heading styles */
-h1 {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    color: #000;
-    font-size: 7.5vw;
-    font-weight: 450;
-    text-align: left;
-    line-height: .8em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 67px;
-    margin-right: 0;
-    text-transform: uppercase;    
-}
 
-h2 {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    color: black;
-    font-size: 6vw;
-    font-style: normal;
-    font-weight: 450;
-    text-align: left;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 142px;
-    margin-right: 2em;
-    line-height: 1.16em; /* 116.667% */
-}
-
-h3 {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    color: black;
-    font-size: 3vw;
-    font-weight: 450;
-    text-align: right;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 2em;
-    text-transform: none;
-    background-color: none;
-    padding: .25em;
-    line-height: 1.16em; /* 116.667% */   
-}
-
-h4 {
-    font-family: neue-haas-grotesk-display, sans-serif;
-  color: black;
-    font-size: 2.25vw;
-    font-weight: 400;
-    text-align: left;
-    margin-top: 0.83em;
-    text-transform: none;
-    background-color: none;
-    padding: .25em;
-    border-radius: none;
-    line-height: 1.16em; /* 116.667% */      
-}
-
-label {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-size: 1.5vw;
-font-style: normal;
-font-weight: 450;
-line-height: 1.4em; /* 141.667% */
-}
-
-label-line {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    color: var(--Colours-Slate, #738080);
-font-size: 1.5vw;
-font-style: normal;
-font-weight: 400;
-line-height: 41px; /* 170.833% */
-}
 
 
 /* Project tile styles */
