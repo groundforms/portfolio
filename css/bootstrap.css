@@ -3960,7 +3960,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-    background: transparent;
+    background: inherit;
   position: relative;
   display: -ms-flexbox;
   display: flex;
